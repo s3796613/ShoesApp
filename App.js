@@ -9,9 +9,9 @@ import LocalStorageScreen from './screen/LocalStorage/LocalStorageScreen'
 const App = () => {
   return (
     <Provider store={store}>
-      {/* <HomeScreen /> */}
+      <HomeScreen />
       {/* <LocalStorageScreen /> */}
-      <LoginScreen />
+      {/* <LoginScreen /> */}
     </Provider>
   )
 }
